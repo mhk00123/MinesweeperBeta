@@ -13,7 +13,7 @@ public class MainActivity extends AppCompatActivity implements ImageView.OnClick
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        for(int i=1;i<=9;++i){
+        for(int i=1;i<10;i++){
             String str1="imageView"+i;
             int resID=getResources().getIdentifier(str1,"id",getPackageName());
             ImageView iva= (ImageView) findViewById(resID);
